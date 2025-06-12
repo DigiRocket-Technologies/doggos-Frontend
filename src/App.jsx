@@ -3,7 +3,7 @@ import PetForm from "./component/PetOwnerMaster/PetForm";
 import Dashboard from "./component/Dashboard";
 import Navbar from "./component/navbar";
 import "./index.css";
-// import Home from "./component/home";
+import Home from "./component/home";
 import DogHistory from "./component/PetOwnerMaster/DogHistory";
 import InventoryForm from "./component/Inventory/inventoryForm";
 import InventoryList from "./component/Inventory/inventoryList";
@@ -91,7 +91,7 @@ function App() {
             <Route path="/login" element={<UserLoginPage />} />
 
           </Route>
-{/*           <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
 {/*           <Route path="/signup" element={<CustomerSignupPage/>}/> */}
       
 {/*            <Route path="/aboutus" element={<AboutUs />} /> */}

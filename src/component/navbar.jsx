@@ -28,7 +28,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 ">
             <Link to="/" className="text-2xl font-bold">
-            <img src="/images/doggoswhite.png" alt="Logo" className="w-14 h-14" />
+               <h1 className="font-bold">Lunar Dogs</h1>
             </Link>
           </div>
  
