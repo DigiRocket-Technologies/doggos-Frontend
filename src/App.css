@@ -1,0 +1,13 @@
+.hidescroller::-webkit-scrollbar {
+    display: none;
+}
+
+.hidescroller {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+input[type="checkbox"] {
+    accent-color: #172554;
+    /* Green color */
+}
