@@ -3,7 +3,7 @@ import PetForm from "./component/PetOwnerMaster/PetForm";
 import Dashboard from "./component/Dashboard";
 import Navbar from "./component/navbar";
 import "./index.css";
-import Home from "./component/home";
+// import Home from "./component/home";
 import DogHistory from "./component/PetOwnerMaster/DogHistory";
 import InventoryForm from "./component/Inventory/inventoryForm";
 import InventoryList from "./component/Inventory/inventoryList";
@@ -76,8 +76,7 @@ function App() {
             <Route path="/buysubscription" element={<BuySubscription/>}/>
             <Route path="/deboard" element={<Deboard />} />
             <Route path="/nvisit2" element={<NewVisitForm2/>}/>
-            <Route path="/onlinecustomerappointment" element={<StaffAppointmentsPage/>} />
-            
+            <Route path="/onlinecustomerappointment" element={<StaffAppointmentsPage/>} /
             <Route path="/customerdaashboard" element={<CustomerDashboard />} />
             <Route path="/customerservice" element={<CustomerService />} />
             <Route path="/bookappointment" element={<AppointmentBooking />} />
@@ -92,15 +91,15 @@ function App() {
             <Route path="/login" element={<UserLoginPage />} />
 
           </Route>
-          <Route path="/" element={<Home />} />
+{/*           <Route path="/" element={<Home />} /> */}
           <Route path="/signup" element={<CustomerSignupPage/>}/>
       
-            <Route path="/aboutus" element={<AboutUs />} />
+{/*             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/refundpolicy" element={<RefundPolicy />} />
             <Route path="/termsandcondition" element={<TermsConditions />} />
-              <Route path="/shippingpolicy" element={<ShippingPolicy />} />
+              <Route path="/shippingpolicy" element={<ShippingPolicy />} /> */}
 
         </Routes>
      
