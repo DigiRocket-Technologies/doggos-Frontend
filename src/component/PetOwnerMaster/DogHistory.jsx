@@ -264,13 +264,14 @@ const DogHistory = () => {
     //     </div>
     //   </div>
     // </div>
+    
     <div className="container w-screen mx-auto p-4 min-h-screen bg-gradient-to-br from-[#EFE3C2] to-[#85A947]/10">
       <div className="flex justify-between items-center mb-8">
-        <Link to="/BreedManagement">
-          <div className="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-xl border border-[#85A947]/30 hover:bg-[#EFE3C2] transition-all duration-300 shadow-md hover:shadow-lg">
-            <div className="w-3 h-3 bg-[#3E7B27] rounded-full"></div>
+        <Link to="">
+          <div className="flex items-center gap-2 px-4 py-2 hover:bg-[#EFE3C2] transition-all duration-300 shadow-md hover:shadow-lg">
+            
             <h2 className="text-[#123524] font-semibold">
-              Filter pets by breed
+              Search pet by name and phone no.
             </h2>
           </div>
         </Link>
