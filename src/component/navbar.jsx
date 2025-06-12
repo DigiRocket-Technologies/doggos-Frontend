@@ -102,30 +102,13 @@ const Navbar = () => {
               </>
             ) : (
               <>
-               <Link
-              to="/aboutus"
-              className="text-[#EFE3C2] px-3 py-2 rounded-lg shadow-lg focus:border-b-[2px] focus:border-[#85A947] font-bold transition duration-300 ease-in-out"
-            >
-              About us
-            </Link>
-             <Link
-              to="/contactus"
-              className="text-[#EFE3C2] px-3 py-2 rounded-lg shadow-lg focus:border-b-[2px] focus:border-[#85A947] font-bold transition duration-300 ease-in-out"
-            >
-              Contact us
-            </Link>
+            
             
              <Link
                   to="/login"
                   className="text-[#EFE3C2] px-3 py-2 rounded-lg shadow-lg focus:border-b-[2px] focus:border-[#85A947] font-bold transition duration-300 ease-in-out"
                 >
                   Login
-                </Link>
-                  <Link
-                  to="/signup"
-                  className="text-[#EFE3C2] px-3 py-2 rounded-lg shadow-lg focus:border-b-[2px] focus:border-[#85A947] font-bold transition duration-300 ease-in-out"
-                >
-                  Sign up
                 </Link>
               </>
             )}

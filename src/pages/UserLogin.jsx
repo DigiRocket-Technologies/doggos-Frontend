@@ -7,7 +7,7 @@ export default function UserLoginPage() {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
-    role: "", // Add role to form data
+    role: "staff", 
   });
 
   const handleSubmit = (e) => {
@@ -33,7 +33,7 @@ export default function UserLoginPage() {
         setFormData({
           email: "",
           password: "",
-          role: "",
+          role: "staff",
         });
         
         // You might want to redirect based on role here
@@ -136,8 +136,8 @@ export default function UserLoginPage() {
               </div>
               
               <div className="space-y-4 sm:space-y-5">
-                {/* Role Selection */}
-                <div>
+               
+                {/* <div>
                   <label className="block text-xs sm:text-sm font-medium text-[#3E7B27] mb-2 sm:mb-3">
                     Login As
                   </label>
@@ -166,7 +166,7 @@ export default function UserLoginPage() {
                       </label>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 {/* Email Field */}
                 <div>
