@@ -68,7 +68,7 @@ function App() {
             <Route path="/salesSection" element={<SalesSection />} />
             <Route path="/saleshistory" element={<SalesHistory />} />
             <Route path="/reminders" element={<NewReminders/>} />
-            {/* <Route path="/new" element={<NewReminders />} /> */}
+            <Route path="/new" element={<NewReminders />} />
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/petByDate" element={<PetByDate />} />
             <Route path="/fill" element={<Hostel />} />
@@ -76,14 +76,14 @@ function App() {
             <Route path="/buysubscription" element={<BuySubscription/>}/>
             <Route path="/deboard" element={<Deboard />} />
             <Route path="/nvisit2" element={<NewVisitForm2/>}/>
-            <Route path="/onlinecustomerappointment" element={<StaffAppointmentsPage/>} /
-{/*             <Route path="/customerdaashboard" element={<CustomerDashboard />} />
-            <Route path="/customerservice" element={<CustomerService />} />
-            <Route path="/bookappointment" element={<AppointmentBooking />} />
-            <Route path="/seeappointment" element={<AppointmentsPage />} />
-            <Route path="/customerbuysubscription" element={<BuySubcriptionCustomer/>} />
-             <Route path="/customerpetform" element={<CustomerPetForm />} />
-               <Route path="/customersubscription" element={<CustomerSubcription />} /> */}
+{/*             <Route path="/onlinecustomerappointment" element={<StaffAppointmentsPage/>} / */}
+{/*             <Route path="/customerdaashboard" element={<CustomerDashboard />} /> */}
+{/*             <Route path="/customerservice" element={<CustomerService />} /> */}
+{/*             <Route path="/bookappointment" element={<AppointmentBooking />} /> */}
+{/*             <Route path="/seeappointment" element={<AppointmentsPage />} /> */}
+{/*             <Route path="/customerbuysubscription" element={<BuySubcriptionCustomer/>} /> */}
+{/*              <Route path="/customerpetform" element={<CustomerPetForm />} /> */}
+{/*                <Route path="/customersubscription" element={<CustomerSubcription />} /> */}
 
           </Route>
  
@@ -94,12 +94,12 @@ function App() {
 {/*           <Route path="/" element={<Home />} /> */}
 {/*           <Route path="/signup" element={<CustomerSignupPage/>}/> */}
       
-{/*             <Route path="/aboutus" element={<AboutUs />} />
-            <Route path="/contactus" element={<ContactUs />} />
-            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-            <Route path="/refundpolicy" element={<RefundPolicy />} />
-            <Route path="/termsandcondition" element={<TermsConditions />} />
-              <Route path="/shippingpolicy" element={<ShippingPolicy />} /> */}
+{/*            <Route path="/aboutus" element={<AboutUs />} /> */}
+{/*             <Route path="/contactus" element={<ContactUs />} /> */}
+{/*             <Route path="/privacypolicy" element={<PrivacyPolicy />} /> */}
+{/*             <Route path="/refundpolicy" element={<RefundPolicy />} /> */}
+{/*             <Route path="/termsandcondition" element={<TermsConditions />} /> */}
+{/*               <Route path="/shippingpolicy" element={<ShippingPolicy />} />  */}
 
         </Routes>
      
