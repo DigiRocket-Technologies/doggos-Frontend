@@ -149,7 +149,7 @@ const SalesHistory = () => {
   }
 
   return (
-    <div className="w-screen min-h-screen bg-gradient-to-br from-[#EFE3C2] to-[#f5f0e8] flex flex-col mt-10 justify-center items-center">
+    <div className="w-screen min-h-screen bg-gradient-to-br from-[#EFE3C2] to-[#f5f0e8] flex flex-col  justify-center items-center">
       <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-[#85A947]/30 p-8 mb-8">
         <h2 className="text-4xl sm:text-3xl tracking-wider md:text-4xl font-bold text-[#123524] text-center drop-shadow-sm">
           🏥 Visit History
