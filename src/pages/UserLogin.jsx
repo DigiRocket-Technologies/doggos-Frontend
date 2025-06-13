@@ -238,18 +238,7 @@ export default function UserLoginPage() {
                 </button>
               </div>
 
-              {/* Sign up link */}
-              <div className="mt-4 sm:mt-6 text-center">
-                <p className="text-xs sm:text-sm text-[#3E7B27]">
-                  Don't have an account?{' '}
-                  <a 
-                    href="/signup" 
-                    className="font-medium text-[#123524] hover:text-[#85A947] transition-colors underline-offset-2 hover:underline"
-                  >
-                    Sign up as Customer
-                  </a>
-                </p>
-              </div>
+             
             </div>
           </div>
         </div>
