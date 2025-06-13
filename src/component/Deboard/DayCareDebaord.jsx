@@ -86,6 +86,7 @@ const DayCareDebaord = ({ _id, setboardingid }) => {
   // );
 
   const startPayment = async (amount) => {
+    
     const razorpayLoaded = await loadRazorpayScript(
       "https://checkout.razorpay.com/v1/checkout.js"
     );

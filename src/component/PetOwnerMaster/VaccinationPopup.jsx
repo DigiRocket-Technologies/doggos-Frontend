@@ -63,10 +63,6 @@ const VaccinationPopup = ({ isOpen, onClose, vaccinations }) => {
                   <span className="font-bold text-[#123524] text-lg">
                     {vaccine.name}
                   </span>
-                  <p className="text-[#3E7B27] text-sm font-medium">
-                    {vaccine.numberOfDose}{" "}
-                    {vaccine.numberOfDose === 1 ? "dose" : "doses"} administered
-                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
