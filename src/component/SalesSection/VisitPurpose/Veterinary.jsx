@@ -1131,16 +1131,16 @@ const Veterinary = ({ _id, visitPurposeDetails }) => {
 
     const formattedData = {
       customerType,
-      items,
-      tablets,
-      ml,
-      mg,
       nextFollowUp,
       followUpTime,
       followUpPurpose,
       petId: _id,
       visitType: visitPurposeDetails._id,
       details: {
+         items,
+        tablets,
+         ml,
+         mg,
         totalCalculatedPrice: totalPrice,
       },
     };
@@ -1178,6 +1178,8 @@ const Veterinary = ({ _id, visitPurposeDetails }) => {
         contact: "",
       },
     };
+
+   console.log(data);
 
     const onPaymentSuccess = (response) => {
       const updatedData = {
@@ -1228,8 +1230,6 @@ const Veterinary = ({ _id, visitPurposeDetails }) => {
       // Format data for veterinary visit dispatch
       const veterinaryData = {
         customerType: updatedData.customerType,
-        medicines: updatedData.medicines,
-        vaccines: updatedData.vaccines,
         nextFollowUp: updatedData.nextFollowUp,
         followUpTime: updatedData.followUpTime,
         followUpPurpose: updatedData.followUpPurpose,
@@ -1273,8 +1273,6 @@ const Veterinary = ({ _id, visitPurposeDetails }) => {
 
     const veterinaryData = {
       customerType: data.customerType,
-      medicines: data.medicines,
-      vaccines: data.vaccines,
       nextFollowUp: data.nextFollowUp,
       followUpTime: data.followUpTime,
       followUpPurpose: data.followUpPurpose,
